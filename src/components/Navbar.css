@@ -1,0 +1,57 @@
+/* src/components/Navbar.css */
+
+nav {
+  background-color: black; /* Set navbar background color */
+  padding: 10px; /* Add some padding around the navbar */
+}
+
+.navbar {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-right: 20px; /* Space between items */
+}
+
+.navbar-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px; /* Add padding for better spacing */
+  font-size: 16px; /* Optional: set a font size for consistency */
+  color: grey; /* Default text color for inactive buttons */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.navbar-button.active {
+  color: white; /* Active button text color */
+}
+
+.navbar-link {
+  padding: 10px 15px; /* Add padding for better spacing */
+  text-decoration: none;
+  color: grey; /* Default link color for inactive link */
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.navbar-link.active {
+  color: white; /* Active link text color */
+}
+
+.password-form {
+  margin-top: 10px; /* Space between navbar and form */
+  display: flex; /* Use flexbox for password form layout */
+  align-items: center; /* Center items vertically in form */
+}
+
+.password-input {
+  padding: 5px;
+  margin-right: 5px; /* Space between input and button */
+}
+
+.password-submit {
+  padding: 5px 10px; /* Button padding */
+}

@@ -1,0 +1,50 @@
+.Validation-Container {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+
+.Validation-Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Validation-Form {
+  padding: 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.Validation-Form input {
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.Validation-Form button {
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
+.Validation-Form button:hover {
+  border: none;
+  background-color: black;
+  color: white;
+  border: solid 1px black;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.Validation-Form p {
+  color: red;
+}
