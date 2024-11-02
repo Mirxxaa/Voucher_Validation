@@ -1,0 +1,83 @@
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+.dashbaord-wrapper {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.daashboard-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashbaord-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.download-upload-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  align-items: center;
+}
+.download-upload-btn button {
+  background-color: white;
+  color: black;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.download-upload-btn button:hover {
+  background-color: black;
+  color: white;
+}
+
+.dashbaord-inputs .choosefile {
+  padding: 10px;
+}
+
+.upload-file-input {
+  border: dashed 2px gray;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="file"] {
+  display: none; /* Hide the default file input */
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: gray;
+  border-radius: 5px; /* Rounded corners */
+  border: none;
+  font-size: 16px; /* Font size */
+  transition: 0.3s ease; /* Smooth transition */
+}
+.custom-file-upload:hover {
+  color: black;
+}
